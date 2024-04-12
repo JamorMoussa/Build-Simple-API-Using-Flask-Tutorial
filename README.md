@@ -10,3 +10,7 @@ In this tutorial, we'll explore how to deploy pretrained models using Streamlit,
 
 > **Note:**
 > This tutorial does not cover how to build machine learning models, as our focus is on deploying pretrained models.
+
+### TODO: 
+
+- [] Schedule a meeting to discuss the core of this tutorial and distribute tasks.
