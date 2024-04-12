@@ -13,4 +13,4 @@ In this tutorial, we'll explore how to deploy pretrained models using Streamlit,
 
 ### TODO: 
 
-- [] Schedule a meeting to discuss the core of this tutorial and distribute tasks.
+- [ ] Schedule a meeting to discuss the core of this tutorial and distribute tasks.
