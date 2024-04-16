@@ -8,9 +8,31 @@ In this tutorial, we'll explore how to deploy pretrained models using Streamlit,
 - Learn to build APIs and endpoints using Flask and Django.
 - Create a website for model deployment using Streamlit.
 
-> **Note:**
-> This tutorial does not cover how to build machine learning models, as our focus is on deploying pretrained models.
+## Flask
 
-### TODO: 
+A basic flask app 
 
-- [ ] Schedule a meeting to discuss the core of this tutorial and distribute tasks.
+```python
+# app.py
+
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route("/", methods=["GET"])
+def hello_word():
+    return "Hello, World"
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+```
+
+In order to run the flask app, run the following command 
+
+
+```bash
+python3 app.py # app.py file name
+```
