@@ -32,7 +32,7 @@ source ./env/bin/activate
 Then, install the requirements: 
 
 ```
-pip install -r requiremebs.txt
+pip install -r requirements.txt
 ```
 
 
