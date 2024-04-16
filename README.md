@@ -68,11 +68,12 @@ python3 app.py # app.py file name
 
 ## TODO:
 
-- [ ] Materials About, basic concepts of Networking
-    - API, HTTP, JSON, HTTP Methods (GET, POST, ..,)
+- Materials About, basic concepts of Networking
+    - [ ] API, HTTP, JSON, HTTP Methods (GET, POST, ..,)
+    - [ ] Build a simple TODO APP.
 
 - Fetch APIs: 
-    - [ ] Looking for available APIs (ex. Github)
+    - [ ] Looking for available APIs (ex. Github API)
     - [ ] Materials About: using the `requests` library, fetch website & APIs.
 
 - ML Models:
