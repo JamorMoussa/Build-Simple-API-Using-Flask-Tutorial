@@ -64,3 +64,17 @@ In order to run the flask app, run the following command
 ```bash
 python3 app.py # app.py file name
 ```
+
+
+### TODO:
+
+- [ ] Materials About, basic concepts of Networking
+    - API, HTTP, JSON, HTTP Methods (GET, POST, ..,)
+
+- Fetch APIs: 
+    - [ ] Looking for available APIs (ex. Github)
+    - [ ] Materials About: using the `requests` library, fetch website & APIs.
+
+- ML Models:
+    - [ ] Looking for pre-trainned models, to use in this tuto.
+    - [ ] Work with different data type: text, images, json ...
