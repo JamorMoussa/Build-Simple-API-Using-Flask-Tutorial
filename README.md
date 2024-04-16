@@ -69,7 +69,7 @@ python3 app.py # app.py file name
 ## TODO:
 
 - Materials About, basic concepts of Networking
-    - [ ] API, HTTP, JSON, HTTP Methods (GET, POST, ..,)
+    - [ ] API, HTTP, JSON, HTTP Methods (GET, POST, ..,) [here](https://github.com/JamorMoussa/model-deployment-tuto/blob/main/docs/basic-concepts-of-networking.md)
     - [x] apply these concepts in `Flask`.
     - [ ] Build a simple TODO APP.
 
@@ -78,5 +78,5 @@ python3 app.py # app.py file name
     - [ ] Materials About: using the `requests` library, fetch website & APIs.
 
 - ML Models:
-    - [ ] Looking for pre-trainned models, to use in this tuto.
-    - [ ] Work with different data type: text, images, json ...
+    - [ ] Looking for pre-trained models, to use in this tuto.
+    - [ ] Work with different data type: text, images, json ,etc.
