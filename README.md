@@ -65,7 +65,6 @@ In order to run the flask app, run the following command
 python3 app.py # app.py file name
 ```
 
-
 ## TODO:
 
 - Materials About, basic concepts of Networking
