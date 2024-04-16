@@ -70,6 +70,7 @@ python3 app.py # app.py file name
 
 - Materials About, basic concepts of Networking
     - [ ] API, HTTP, JSON, HTTP Methods (GET, POST, ..,)
+    - [x] apply this concept in `Flask`
     - [ ] Build a simple TODO APP.
 
 - Fetch APIs: 
