@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Response
 from todo import Todo
 
 
@@ -8,7 +8,7 @@ URL = "/todo/api/v1.0"
 
 
 @app.route(f"{URL}/all", methods=["GET"])
-def get_all():
+def get_all() -> Response:
 
     res = {}
 
@@ -19,7 +19,7 @@ def get_all():
 
 
 @app.route(f"{URL}/task", methods=["GET"])
-def get_task_by_id():
+def get_task_by_id() -> Response:
 
     res = {}
 
@@ -34,7 +34,7 @@ def get_task_by_id():
 
 if __name__ == "__main__":
 
-    Todo.create_task(title="some title", description="some desc", done=False)
-    Todo.create_task(title="title 2", description="desc 2", done=False)
+    Todo.create_task(title = "some title", desc = "some desc", done = False)
+    Todo.create_task(title = "title 2", desc ="desc 2", done = False)
 
     app.run(debug=True)
