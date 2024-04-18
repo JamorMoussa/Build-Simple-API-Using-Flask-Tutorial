@@ -4,12 +4,14 @@ from typing import Self
 @dataclass
 class Task:
 
+    id: int 
     title: str = ""
     desc: str = ""
     done: bool = False
 
     def to_dict(self) -> dict[str, str, bool]:
         return {
+                "id": self.id,
                 "title": self.title, 
                 "description": self.desc, 
                 "done": self.done
@@ -19,6 +21,7 @@ class Task:
 class Todo:
 
     task_list: list[Task] = []
+    curr_id: int = 0 
 
     @classmethod
     def get(cls, i: int) -> Task:
@@ -31,7 +34,13 @@ class Todo:
     
     @classmethod
     def create_task(cls: Self, title:str, desc: str, done: bool = False) -> None:
-        cls._append(Task(title=title, desc=desc, done=done))
+        cls._append(Task(id= cls.curr_id , title=title, desc=desc, done=done))
+        cls.curr_id += 1
+
+    @classmethod
+    def delete_task_by_id(cls, id: int) -> None:
+        if not isinstance(id, int): id = int(id)
+        cls.task_list = [task for task in cls.all() if task.id != id]
 
     @classmethod
     def all(cls) -> list[Task]:
