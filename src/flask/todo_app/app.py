@@ -3,8 +3,6 @@ from todo import Todo
 from wrapper import raise_key_error
 
 
-
-
 app = Flask(__name__)
 
 URL = "/todo/api/v1.0"
@@ -28,7 +26,7 @@ def get_task_by_id() -> Response:
     if id is None:
         id = 0
     
-    res["tasks"] = [Todo.get(id), ]
+    res["task"] = [Todo.get(id), ]
     
     return jsonify(res)
 
@@ -66,4 +64,5 @@ if __name__ == "__main__":
     Todo.create_task(title="some title", desc="some desc", done=False)
     Todo.create_task(title="title 2", desc="desc 2", done=False)
 
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
+
