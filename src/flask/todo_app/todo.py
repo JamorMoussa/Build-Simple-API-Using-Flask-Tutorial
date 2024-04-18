@@ -29,12 +29,12 @@ class Todo:
         return cls.task_list[i]
     
     @classmethod
-    def _append(cls: Self, task: Task) -> None:
+    def add_task(cls: Self, task: Task) -> None:
         cls.task_list.append(task)
     
     @classmethod
     def create_task(cls: Self, title:str, desc: str, done: bool = False) -> None:
-        cls._append(Task(id= cls.curr_id , title=title, desc=desc, done=done))
+        cls.add_task(Task(id= cls.curr_id , title=title, desc=desc, done=done))
         cls.curr_id += 1
 
     @classmethod
