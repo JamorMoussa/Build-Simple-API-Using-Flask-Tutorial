@@ -59,4 +59,4 @@ In this example, the `load_data()` function is decorated with `@st.cache`, indic
 These examples demonstrate how to use Streamlit's caching functionality to optimize the performance of your app by caching expensive computations and data loading operations. You can use caching to speed up the execution of your app and improve the overall user experience.
 
 For more information and detailed documentation, visit the [Streamlit Documentation](https://docs.streamlit.io/develop/concepts/architecture/caching).
-```
+
