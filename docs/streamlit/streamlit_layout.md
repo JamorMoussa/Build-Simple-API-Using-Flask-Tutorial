@@ -18,7 +18,7 @@ with col2:
     st.header("Column 2")
     st.write("This is content in column 2.")
 ```
-![column](../images/layout%20customization/columns.png)
+![column](../../images/layout%20customization/columns.png)
 
 ## 2. Arranging Widgets in Containers
 ```python
@@ -32,7 +32,7 @@ c.write("This is inside the container 'will be show first'")
 # You can call any Streamlit command, including custom components:
 c.bar_chart(np.random.randn(50, 3))
 ```
-![Containers](../images/layout%20customization/container.png)
+![Containers](../../images/layout%20customization/container.png)
 
 ## 3. Arranging Widgets in Sidebars
 ```python
@@ -44,7 +44,7 @@ with st.sidebar:
     st.write("This is content in the sidebar.")
     st.button("Sidebar Button")
 ```
-![slidbar](../images/layout%20customization/sidebar.png)
+![slidbar](../../images/layout%20customization/sidebar.png)
 
 ## 4. Mixing Columns, Containers, and Sidebars
 ```python
@@ -72,7 +72,7 @@ c = st.container()
 st.write("This is outside the container 'will be show last'")
 c.write("This is inside the container 'will be show first'")
 ```
-![mixed](..//images/layout%20customization/mix%20layout.png)
+![mixed](../../images/layout%20customization/mix%20layout.png)
 
 These examples demonstrate how to use simple commands in Streamlit to customize the layout of your app, arranging widgets and elements in columns, rows, or sidebars. You can mix and match these layout options to create the desired structure for your Streamlit app.
 

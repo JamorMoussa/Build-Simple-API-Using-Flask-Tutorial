@@ -16,9 +16,6 @@ Create a new Python file (e.g., `app.py`) where you will write your Streamlit ap
 ## 3. Write Your App Code
 Write the code for your Streamlit app in the `app.py` file. This code will define the layout, widgets, and functionality of your app.
 
-## 4. Run Your App
-Open a terminal or command prompt, navigate to the directory containing your `app.py` file, and run the following command:
-
 ```python
 # app.py
 import streamlit as st
@@ -34,9 +31,14 @@ if st.button('Submit'):
     st.write('Hello, ' + name + '! Welcome to Streamlit tutorial.')
 ```
 
+## 4. Run Your App
+Open a terminal or command prompt, navigate to the directory containing your `app.py` file, and run the following command:
+
 ```bash
 streamlit run app.py
 ```
+Output:
+![setting up](../../images/setup.png)
 
 This command will start the Streamlit server and run your app. You should see a local URL (usually http://localhost:8501) where you can view your app in your web browser.
 
