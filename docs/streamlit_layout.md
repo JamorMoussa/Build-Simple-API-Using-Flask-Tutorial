@@ -77,6 +77,3 @@ c.write("This is inside the container 'will be show first'")
 These examples demonstrate how to use simple commands in Streamlit to customize the layout of your app, arranging widgets and elements in columns, rows, or sidebars. You can mix and match these layout options to create the desired structure for your Streamlit app.
 
 For more information and detailed documentation, visit the [Streamlit Documentation](https://docs.streamlit.io/develop/api-reference/layout).
-
-
-You can copy and paste this markdown content into your `README.md` file in your GitHub repository. Let me know if you need further assistance!
