@@ -20,7 +20,7 @@ ax.set_ylabel('Y-axis')
 ax.set_title('Matplotlib Example')
 st.pyplot(fig)
 ```
-![matplotlib](../images/data%20visualization/matplotlib.png)
+![matplotlib](../../images/data%20visualization/matplotlib.png)
 
 ## 2. Altair
 ```python
@@ -36,7 +36,7 @@ chart = alt.Chart(data).mark_line().encode(x='x', y='y')
 chart.properties(title='Altair Example').interactive()
 st.write(chart)
 ```
-![altair](../images/data%20visualization/altair.png)
+![altair](../../images/data%20visualization/altair.png)
 
 ## 3. Map
 ```python
@@ -50,7 +50,7 @@ df = pd.DataFrame(
 
 st.map(df)
 ```
-![map](../images/data%20visualization/map.png)
+![map](../../images/data%20visualization/map.png)
 
 ## 4. Graph
 ```python
@@ -66,7 +66,7 @@ st.graphviz_chart('''
     }
 ''')
 ```
-![graph](../images/data%20visualization/graph.png)
+![graph](../../images/data%20visualization/graph.png)
 
 These examples showcase how to integrate Matplotlib and Altair visualizations into Streamlit apps. You can customize these examples further based on your specific data and visualization requirements. Additionally, Streamlit supports other popular visualization libraries like Bokeh and Plotly, so you can explore those as well if needed.
 

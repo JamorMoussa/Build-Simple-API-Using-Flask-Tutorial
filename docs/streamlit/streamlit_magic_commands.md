@@ -9,7 +9,7 @@ import streamlit as st
 # st.write() example
 st.write("This is a Streamlit app.")
 ```
-![st.write](../images/magic%20commands/st.write.png)
+![st.write](../../images/magic%20commands/st.write.png)
 
 ## 2. st.header():
 ```python
@@ -18,7 +18,7 @@ import streamlit as st
 # st.header() example
 st.header("This is a Header")
 ```
-![st.header](../images/magic%20commands/st.header.png)
+![st.header](../../images/magic%20commands/st.header.png)
 
 ## 3. st.title():
 ```python
@@ -27,7 +27,7 @@ import streamlit as st
 # st.title() example
 st.title("This is a Title")
 ```
-![st.title](../images/magic%20commands/st.title.png)
+![st.title](../../images/magic%20commands/st.title.png)
 
 ## 4. st.subheader():
 ```python
@@ -36,7 +36,7 @@ import streamlit as st
 # st.subheader() example
 st.subheader("This is a Subheader")
 ```
-![st.subheader](../images/magic%20commands/st.subheader.png)
+![st.subheader](../../images/magic%20commands/st.subheader.png)
 
 ## 5. st.text():
 ```python
@@ -45,7 +45,7 @@ import streamlit as st
 # st.text() example
 st.text("This is some plain text.")
 ```
-![st.text](../images/magic%20commands/st.text.png)
+![st.text](../../images/magic%20commands/st.text.png)
 
 ## 6. st.markdown():
 ```python
@@ -54,7 +54,7 @@ import streamlit as st
 # st.markdown() example
 st.markdown("## This is a Markdown title")
 ```
-![st.markdown](../images/magic%20commands/st.markdown.png)
+![st.markdown](../../images/magic%20commands/st.markdown.png)
 
 ## 7. st.latex():
 ```python
@@ -63,7 +63,7 @@ import streamlit as st
 # st.latex() example
 st.latex(r'\sqrt{a^2 + b^2}')
 ```
-![st.latex](../images/magic%20commands/st.latex.png)
+![st.latex](../../images/magic%20commands/st.latex.png)
 
 ## 8. st.code():
 ```python
@@ -77,7 +77,7 @@ hello()
 '''
 st.code(code, language='python')
 ```
-![st.code](../images/magic%20commands/st.code.png)
+![st.code](../../images/magic%20commands/st.code.png)
 
 ## 9. st.json():
 ```python
@@ -87,7 +87,7 @@ import streamlit as st
 json_data = {'name': 'John', 'age': 30}
 st.json(json_data)
 ```
-![st.json](../images/magic%20commands/st.json.png)
+![st.json](../../images/magic%20commands/st.json.png)
 
 ## 10. st.table():
 ```python
@@ -99,7 +99,7 @@ data = {'Name': ['John', 'Jane', 'Doe'], 'Age': [30, 25, 40]}
 df = pd.DataFrame(data)
 st.table(df)
 ```
-![st.table](../images/magic%20commands/st.table.png)
+![st.table](../../images/magic%20commands/st.table.png)
 
 ## 11. Combined Usage of All Magic Commands:
 ```python
@@ -144,7 +144,7 @@ data = {'Name': ['mohamed', 'stifi', 'hassan'], 'Age': [30, 25, 40]}
 df = pd.DataFrame(data)
 st.table( df)
 ```
-![app](../images/magic%20commands/app.png)
+![app](../../images/magic%20commands/app.png)
 
 These examples demonstrate the usage of various Streamlit magic commands. Feel free to explore and customize them as per your requirements.
 
